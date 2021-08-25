@@ -1,0 +1,331 @@
+/* VARIAVEIS */
+:root{
+
+--color-fundo1:linear-gradient(to left, #000000, #851818, #000000);
+--color-fundo2: #851818;
+--color-fundo3:linear-gradient(to left, #000000,#a2a9af, #000000);
+--color-fundo4: #a2a9af;
+--color-palavras:#FFF; 
+
+}
+
+
+html{
+    background-color: rgb(76, 75, 75);
+}
+
+body{
+    font-family: "Mukta";
+    color: var(--color-palavras);
+    font-size: 1rem;
+    background-color: var(--color-fundo4); 
+}
+
+.uk-background-cover{
+width: 100%;
+}
+
+li{
+  list-style:none;
+  
+}
+
+.uk-navbar a{
+  top: 20%;
+  margin:30px 22px; 
+  font-size: 0.8rem;
+  color: var(--color-palavras);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.uk-navbar a:hover {
+  color: rgb(206, 66, 2);
+  text-decoration: none;  
+}
+
+.uk-nav a{
+  font-size: 0.8rem;
+  color:  var(--color-palavras);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.uk-nav a:hover {
+  color: rgb(206, 66, 2);
+  text-decoration: none;  
+}
+
+.uk-section{
+  background:var(--color-fundo3);
+  align-items: center;
+ justify-content: center;
+}
+
+
+h3{
+  color: var(--color-palavras);
+  font-family:"Great Vibes";
+  text-rendering: geometricPrecision;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.uk-section h3{
+  font-family: "Great Vibes";
+  font-size: 2rem;
+  justify-content: center;
+  position: center;
+}
+.uk-section h3:hover{
+color: rgb(206, 66, 2);
+}
+
+h2{
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+.uk-section2{
+  background-color: #000000;
+  align-items: center;
+ justify-content: center;
+}
+
+.uk-section2 h3{
+  font-family: "Great Vibes";
+  font-size: 2rem;
+  justify-content: center;
+  position: center;
+  margin: 20px 10px;
+}
+.uk-section2 h3:hover{
+color: rgb(206, 66, 2);
+}
+ 
+.uk-container{
+  position: relative;
+  margin-bottom: 30%;
+}
+
+.dark{
+    width: 20%;
+   max-width: 980px;
+   cursor: pointer;
+}
+
+.dick{
+    width: 15%;
+   max-width: 980px;
+   cursor: pointer;
+
+  }
+.odin{
+    width: 19%;
+    max-width: 980px;
+    cursor: pointer;
+  }
+.piplup{
+    width: 18%;
+    max-width: 980px;
+    cursor: pointer;
+  }
+.aliados2{
+    width: 23%;
+    max-width: 980px;
+    cursor: pointer;
+  }
+.indeedeev{
+    width: 19%;
+    max-width: 980px;
+    cursor: pointer;
+}
+
+.uk-navbar-right{
+    margin-right: 2%;
+}
+.uk-search-input input{
+    border-radius: 25px;
+}
+/*ANIMAÇÕES CSS*/
+
+/*ANIMAÇÃO PARA OS BONECOS E CARDS APARECER NA TELA */
+
+.slide-in-fwd-left {
+	-webkit-animation: slide-in-fwd-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-fwd-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-fwd-left {
+  0% {
+    -webkit-transform: translateZ(-1400px) translateX(-1000px);
+            transform: translateZ(-1400px) translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateX(0);
+            transform: translateZ(0) translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-fwd-left {
+  0% {
+    -webkit-transform: translateZ(-1400px) translateX(-1000px);
+            transform: translateZ(-1400px) translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateX(0);
+            transform: translateZ(0) translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-fwd-left {
+    0% {
+      -webkit-transform: translateZ(-1400px) translateX(-1000px);
+              transform: translateZ(-1400px) translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateX(0);
+              transform: translateZ(0) translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-left {
+    0% {
+      -webkit-transform: translateZ(-1400px) translateX(-1000px);
+              transform: translateZ(-1400px) translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateX(0);
+              transform: translateZ(0) translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+/* ANIMAÇÃO DO TITULO*/
+
+.tracking-in-expand-fwd-top {
+	-webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) backwards;
+	        animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) backwards;
+}
+
+  @-webkit-keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+            transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+            transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/* TELA LOGIN MODIFICAÇÕES CSS*/
+
+.uk-grid-small{
+ justify-content: space-around;
+}
+
+.uk-article-title{
+text-align: center;
+color: white;
+}
+
+p.uk-text-lead{
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#subtitulo{
+  margin-top: 20px;
+}
+input.uk-input:hover{
+color: #a2a9af;
+} 
+input.uk-input{
+  border-radius: 25px;
+  
+} 
+
+#email{
+margin-top: 320px;
+margin-left: 10%;
+
+}
+#senha{
+ 
+  margin-left: 10%;
+  
+  }
+
+#link1{
+  margin-left: 2%;
+  color:#00b0f4;
+}
+
+#link2{ 
+  color:#00b0f4;
+}
+.uk-button-primary{
+  background-color: #00b0f4;
+  
+
+}
+
+.left{
+  margin-left: 13%;
+}
+
+.campos{
+font-family: "Roboto";
+font-size: 0.8rem;
+margin-left: 22%;
+margin-top: 20px;
+}
+
+
+button.uk-button{
+  border-radius: 25px;
+  margin-left: 48%;
+  align-items: center;
+  background: #1e87f0;
+  color: white;
+}

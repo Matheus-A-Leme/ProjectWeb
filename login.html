@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Troca Troca!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="sortcut icon" href="imgs/troca troca.png" type="image/x-icon" />
+
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+         <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+        <div class="uk-background-contain uk-position-relative uk-light" style="background-image: url('imgs/Controle\ ps4.jpg');">
+            <img class="uk-invisible" src="imgs/Controle ps4.jpg" alt="">
+            <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle"></div>
+        </div>   
+        <div class="uk-position-top">
+        <header>
+    <!-- Main Navbar -->
+            <nav class="uk-container uk-navbar">
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar slide-in-fwd-left uk-visible@s">
+                    <li><a  class="uk-active" href="index.html">Inicio</a></li>
+                    <li><a  class="uk-active" href="#">Perfil</a>
+                    <!--    Item 1:  Minha Coleção
+                            Item 2:Favoritos
+                            Item 3: Desejos
+                            Up Page Profile -->
+                    <li><a  class="uk-active" href="#">Mensagens</a></li>
+                    <li><a  class="uk-active" href="#sobre">Sobre</a></li>
+             </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <a class="button slide-in-fwd-left" href="login.html" target="_self">ENTRAR</a>
+                </ul>
+                <a href="#" class="uk-navbar-toggle uk-hidden@s slide-in-fwd-left" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+            </div>
+            </nav>
+        </header>
+
+        <div id="sidenav" uk-offcanvas="slide: true" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Perfil</a>
+                    <li><a href="#">Mensagens</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </div>
+        </div>
+            </nav>
+        </div>
+        
+        <!-- DIV SECTION CONTROLA O BODY-->
+
+        <div class="uk-section uk-light">
+            <div class="uk-container">
+                <h3 class="uk-article-title">Boas-vindas de volta!</h3>
+                <b class="uk-article-meta uk-position-center" id="subtitulo">Estamos bem entusiasmado com sua volta!</b>
+                <form class="uk-position-center">
+                    <div class="uk-margin">
+                        <div class="uk-inline">
+                            <span class="uk-form-icon" id="email" uk-icon="icon: user"></span>
+                            <input class="uk-input uk-form-width-medium" id="email" type="text">
+                        </div>        
+                    </div>
+                    <div class="uk-margin">                  
+                            <div class="uk-inline">
+                                <span class="uk-form-icon uk-form-icon-flip" id="senha" uk-icon="icon: lock"></span>
+                                <input class="uk-input uk-form-width-medium" id="senha" type="password">
+                            </div>
+                    </div> 
+                    <a  class="uk-link-heading" id="link1" href="#">Esqueceu a senha?</a>   
+                    <div class="uk-margin">                  
+                        <div class="uk-inline">
+                            <button class="uk-button">ENTRAR</button>
+                        </div> 
+                    </div>          
+                      
+                        <article class="uk-article">Precisando de uma conta?
+                            <a class="uk-link-heading" id="link2" href="#"> Registre-se </a>  
+                        </article> 
+                 
+                </form>  
+            </div>
+        </div> 
+        <div class="uk-section uk-light">
+            <div class="uk-container ">
+            </div>    
+        </div>
+        <div class="uk-section uk-light">
+            <div class="uk-container">
+            </div>    
+        </div>
+        <div class="uk-section uk-light">
+            <div class="uk-container">
+                <div class="uk-margin">                  
+                    <div class="uk-inline">
+                    <h3 class="slide-in-fwd-left"  id="sobre">Sobre</h3> 
+                    <p class="uk-article-meta">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>   
+                </div>    
+            </div>   
+        </div>
+    </body>
+</html>
